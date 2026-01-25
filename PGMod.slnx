@@ -1,0 +1,13 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="Injector/Injector.csproj">
+    <Platform Project="x64" />
+    <Build Solution="Release|*" Project="false" />
+  </Project>
+  <Project Path="PGMod/PGMod.csproj">
+    <Platform Project="x64" />
+    <Build Project="false" />
+  </Project>
+</Solution>
