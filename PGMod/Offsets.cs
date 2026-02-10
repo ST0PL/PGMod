@@ -2,7 +2,7 @@
 {
     internal class Offsets
     {
-        public const uint AddCurrency = 0xAAA100;
-        public const uint GetProgressUpdater = 0xAACD30;
+        public const uint AddCurrency = 0xA868A0;
+        public const uint GetProgressUpdater = 0xA81640;
     }
 }
