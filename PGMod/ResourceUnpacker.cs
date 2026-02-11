@@ -13,10 +13,10 @@ namespace PGMod
         {
             foreach (var item in dlls)
                 if (!File.Exists(Path.Combine(pePath, item)))
-                    UnpackAsync(item);
+                    Unpack(item);
         }
 
-        private static void UnpackAsync(string resourceName)
+        private static void Unpack(string resourceName)
         {
             using var resourceStream = assembly.GetManifestResourceStream("PGMod.Requirements." + resourceName);
             using var fileStream = new FileStream(Path.Combine(pePath, resourceName), FileMode.Create);
