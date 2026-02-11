@@ -1,0 +1,1 @@
+dotnet publish -c Release -r win-x64 -o ..\bin\x64\Release\net10.0
