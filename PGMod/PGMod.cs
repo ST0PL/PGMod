@@ -6,6 +6,9 @@ namespace PGMod
     {
         [UnmanagedCallersOnly(EntryPoint = "Init")]
         public static void Init()
-            => UIController.Initialize();
+        {
+            ResourceUnpacker.PrepareResources();
+            UIController.Initialize();
+        }
     }
 }

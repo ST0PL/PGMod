@@ -12,6 +12,11 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <EmbeddedResource Include="Requirements\cimgui.dll" />
+	  <EmbeddedResource Include="Requirements\ImGuiImpl.dll" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Hexa.NET.D3D11" Version="1.0.6" />
 		<PackageReference Include="Hexa.NET.ImGui" Version="2.2.10-prerelease" />
 		<PackageReference Include="Hexa.NET.ImGui.Backends" Version="1.0.19-prerelease" />
