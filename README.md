@@ -14,7 +14,7 @@
 3. Run Pixel Gun 3D: PC Edition
 4. Run injector
 ## How to use
-Press NUM0 to open/close the menu.
+Press VK_OEM_3 (~) to open/close the menu.
 >[!NOTE]
 >Building requires **.NET SDK 10 or later** installed on your system.
 
