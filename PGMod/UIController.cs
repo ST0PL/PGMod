@@ -84,8 +84,8 @@ namespace PGMod
                 }
             }
 
-            //WM_KEYDOWN && VK_NUMPAD0
-            if (uMsg == 0x100 && wParam == 0x60)
+            //WM_KEYDOWN && VK_OEM_3
+            if (uMsg == 0x100 && wParam == 0xC0)
                 isMenuActive = !isMenuActive;
 
             return WinApi.CallWindowProcW(originalWindowProc, hWnd, uMsg, wParam, lParam);
